@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def lyrics():
-    return render_template('lyrics.html', title="")
+    return render_template('index.html', title="")
 
 if __name__ == '__main__':
     app.run(debug=True)
